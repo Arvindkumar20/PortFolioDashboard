@@ -1,13 +1,14 @@
 import React from "react";
 import AllProjectsPage from "./AllProjectsPage";
-// import SkillForm from "./Skills";
 import Skills from "./Skills";
+import EducationList from "./EducationList";
 
 export default function Home() {
   return (
     <div>
       <AllProjectsPage />
-      <Skills/>
+      <Skills />
+      <EducationList />
     </div>
   );
 }
